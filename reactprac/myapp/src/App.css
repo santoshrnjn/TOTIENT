@@ -1,0 +1,45 @@
+
+/*.........................................*/
+body{
+  background-color:whitesmoke; 
+  margin: 20px;
+}
+
+.todo-list{
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  border:1px solid #efefef;
+  box-shadow: 
+            0 1px 1px rgba(252, 135, 135, 0.15),
+            0 10px 0 -5px rgb(111, 252, 147),
+            0 10px 1px -4px rgba(51, 255, 102, 0.15),
+            0 20px 0 -10px rgb(72, 6, 255),
+            0 20px 1px -9px rgba(142, 113, 221, 0.15);
+  padding: 40px;          
+}
+
+.todo-item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 20px 0;
+  width: 70%;
+  border-bottom: 1px solid #cecece;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 100;
+  font-size: 15px;
+  color: #333333;
+
+}
+input[type=checkbox]:focus{
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+input[type= checkbox]{
+  outline: 0;
+}
